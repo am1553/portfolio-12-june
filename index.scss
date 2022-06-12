@@ -1,0 +1,46 @@
+@import "./general/Variable";
+@import "./general/Typography";
+@import "./section-styles/Header";
+@import "./section-styles/Home";
+@import "./section-styles/About";
+@import "./section-styles/Projects";
+@import "./section-styles/Contact";
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $desaturated-black;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: $cyan;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    background-color: $desaturated-white;
+    scroll-behavior: smooth;
+    section {
+        overflow-x: hidden;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+    button {
+        cursor: pointer;
+    }
+    list-style-type: none;
+}

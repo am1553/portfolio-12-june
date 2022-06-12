@@ -1,0 +1,52 @@
+.about {
+    text-align: center;
+    padding: 10rem 0;
+    max-width: 1700px;
+    margin: 0 auto;
+    img {
+        margin: 5rem 0;
+    }
+    h2 {
+        padding: 0 2rem;
+    }
+    article {
+        padding: 0 2rem;
+        img {
+            margin: 0 auto;
+        }
+        h3 {
+            color: $desaturated-cyan;
+        }
+        p {
+            margin: 1rem 0;
+        }
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .about {
+        img {
+            transform: scale(1.5);
+        }
+        .content_wrapper {
+            margin: 10rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+            grid-row-gap: 10rem;
+            article {
+                text-align: left;
+                width: 80%;
+            }
+        }
+        .experience_hero {
+            grid-column: 2 /2;
+            grid-row: 2 / 2;
+        }
+        .experience {
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+        }
+    }
+}
