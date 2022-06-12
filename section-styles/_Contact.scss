@@ -20,6 +20,16 @@
         margin: 2rem 0;
         max-width: 35rem;
         margin: 0 auto;
+        .submit {
+            cursor: pointer;
+            transition: all 250ms ease;
+        }
+        .submit:hover {
+            box-shadow: 0 0 #fff;
+            background-color: transparent;
+            color: $cyan;
+            border: 1px solid $cyan;
+        }
         label {
             font-family: 'Josefin Sans', sans-serif;
             color: $desaturated-black;

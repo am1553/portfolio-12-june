@@ -702,6 +702,20 @@ header .overlay {
   margin: 0 auto;
 }
 
+.contact form .submit {
+  cursor: pointer;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
+.contact form .submit:hover {
+  -webkit-box-shadow: 0 0 #fff;
+          box-shadow: 0 0 #fff;
+  background-color: transparent;
+  color: #32D9BA;
+  border: 1px solid #32D9BA;
+}
+
 .contact form label {
   font-family: 'Josefin Sans', sans-serif;
   color: #0D0D0D;
