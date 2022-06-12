@@ -8,7 +8,9 @@ const moreInfoBtn = document.querySelectorAll(".more_info_btn");
 const copyEmailBtn = document.getElementById("copy-email");
 const emailCopiedText = document.getElementById("email-copied");
 const emailInput = document.getElementById("my-email")
+const listItems = document.querySelectorAll("li")
 
+console.log(listItems)
 
 // EVENT LISTENERS
 hamButton.addEventListener("click", handleHamButton)
@@ -17,11 +19,19 @@ for(let i = 0; i < moreInfoBtn.length; i++) {
     moreInfoBtn[i].addEventListener('click', handleMoreInfo)
 }
 
+for(let i = 0; i < listItems.length; i++) {
+    listItems[i].addEventListener("click", closeNav)
+}
+
 copyEmailBtn.addEventListener("click", handleEmailCopy)
 
 // FUNCTIONS 
 
 function handleHamButton () {
+    hambugerCheck();
+}
+
+function hambugerCheck () {
     if(navPanel.classList.contains("active")) {
         navPanel.classList.remove("active");
         overlay.style.display = "none";
@@ -31,8 +41,6 @@ function handleHamButton () {
         overlay.style.display = "block";
         body[0].style.overflow = "hidden";
     }
-
-
     if(hamBtnLine[0].classList.contains("line_active")) {
         hamBtnLine.forEach(line => {
             line.classList.remove("line_active")
@@ -72,4 +80,9 @@ function handleEmailCopy () {
     setTimeout(function() {
         emailCopiedText.style.display = "none";
     }, 2000)
+}
+
+function closeNav () {
+    hambugerCheck()
+    body[0].style.overflow = "";
 }
