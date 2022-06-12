@@ -100,7 +100,8 @@
     }
     .socials {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-evenly;
         align-items: center;
         max-width: 35rem;
         margin: 0 auto;
@@ -122,13 +123,25 @@
             max-width: 70rem;
             margin: 5rem auto 0;
             .alternative_contact {
+                height: 370.5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
                 .email_clipboard {
                     input {
                         min-width: 20rem;
                     }
+                    margin-bottom: 2rem;
                 }
                 .socials {
-                    margin: 3rem 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    width: 100%;
+                    padding: 0 2rem;
+                    img {
+                        margin-right: 5rem;
+                    }
                 }
             }
         }
