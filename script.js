@@ -8,7 +8,7 @@ const moreInfoBtn = document.querySelectorAll(".more_info_btn");
 const copyEmailBtn = document.getElementById("copy-email");
 const emailCopiedText = document.getElementById("email-copied");
 const emailInput = document.getElementById("my-email")
-const listItems = document.querySelectorAll("li")
+const listItems = document.querySelectorAll(".mobile_list")
 
 console.log(listItems)
 
