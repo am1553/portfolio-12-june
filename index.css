@@ -327,6 +327,7 @@ header .overlay {
   }
   .home .text_wrapper {
     text-align: left;
+    margin-left: 5rem;
   }
   .home img {
     -webkit-transform: scale(1.5);
