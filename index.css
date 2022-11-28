@@ -373,10 +373,22 @@ header .overlay {
 }
 
 .about article h3 {
+  color: #0D0D0D;
+  margin-bottom: 2rem;
+}
+
+.about article h4 {
   color: #2EA690;
 }
 
 .about article p {
+  margin: 0.5rem 0;
+}
+
+.about article .and_more {
+  display: block;
+  color: #2EA690;
+  opacity: 0.5;
   margin: 1rem 0;
 }
 

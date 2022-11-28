@@ -15,9 +15,19 @@
             margin: 0 auto;
         }
         h3 {
+            color: $desaturated-black;
+            margin-bottom: 2rem;
+        }
+        h4 {
             color: $desaturated-cyan;
         }
         p {
+            margin: 0.5rem 0;
+        }
+        .and_more {
+            display: block;
+            color: $desaturated-cyan;
+            opacity: 0.5;
             margin: 1rem 0;
         }
     }

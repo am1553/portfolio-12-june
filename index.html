@@ -21,14 +21,12 @@
         </button>
         <nav id="nav-panel" class="mobile">
             <li class="mobile_list"><a href="#home">home</a></li>
-            <li class="mobile_list"><a href="#about">about</a></li>
             <li class="mobile_list"><a href="#projects">projects</a></li>
             <li class="mobile_list"><a href="#contact">contact</a></li>
             <li class="cv mobile_list"><a href="/aryan-cv-2022.pdf" download>download cv</a></li>
         </nav>
         <nav class="desktop">
             <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
             <li><a href="#projects">projects</a></li>
             <li><a href="#contact">contact</a></li>
             <button class="cv"><a href="/aryan-cv-2022.pdf" download>download cv</a></button>
@@ -54,44 +52,67 @@
             <h2>On a hustle to become a fullstack web developer.</h2>
 
             <div class="content_wrapper">
-                <img src="./images/about-hero.svg" alt="man sitting on chair and working with multiple screens and coffee">
-
-                <article class="journey">
-                    <h3>Journey</h3>
-                    <p>
-                        Being an engineering student, I had a great opportunity to come across CNC programming (programming which automates machines to manufacture a given design) which made me interested in learning to code in other lanuages too.
-                    </p>
-                    <p>
-                        I took on challenges from frontendmentor.io to begin with which accelerated my learning process. At some point it became a routine to wake up everyday and complete challenges simply because I enjoyed it.
-                    </p>
-                </article>
-
                 <img src="./images/about-experience.svg" alt="man sitting in front of laptop thinking of an idea" class="experience_hero">
 
                 <article class="experience">
                     <h3>Experience</h3>
+
+                    <h4>Plume - Learning Technology Agency</h4>
                     <p>
-                        I had a great opportunity to build frontend side of the web application that consisted of multiple pages for an educational company. 
+                        I was responsible for building an e-learning web application which was estimated to be accessed by 100,000+ users and had a six figure budget; and a platform for content management. This has been my greatest experience, where I had the support from a great team and was able to develop the frontend.
                     </p>
                     <p>
-                        I created reusable components that worked seemlessly and passed data as props. 
+                        I used React.js, React Router, React Query, and SCSS for the development. Using the API endpoints, I was able to use hooks and React Query to fetch and manipulate data. I had to use external libraries for localization, calendar and a text editor. The user authentication was done using JWT, where access and refresh tokens were stored in localStorage.
                     </p>
-                    <p>
-                        Biggest challenge for me on this project was to work with the API, however I was able to get everything working as required within no time by using help from reddit forums and stackoverflow.
-                    </p>
+                    <span class="and_more">...and more</span>
                 </article>
             </div>
-
         </section>
 
         <section class="projects" id="projects">
-            <div class="heading_container">
-                <h4>
-                    After gaining experience using JavaScript, I was able to explore React.js to complete more advanced challenges from <a href="https://www.frontendmentor.io/challenges" target="_blank">frontendmentor.io</a>
-                </h4>
-            </div>
 
            <div class="projects_container">
+
+            <article class="project project_special">
+                <button class="more_info_btn">
+                    <span class="josefin">i</span>
+                </button>
+                <div class="more_info">
+                    <p>
+                        This is a fully functional CRUD web application that was made using React.js and Firebase. I began the project with intention of using MongoDB, Node and Express. Using Express, I was able to create Schema model and endpoint; and connected the server to MongoDB. However, I faced challenge in deploying the API for production and hence switched to using Firebase instead.
+                    </p>
+                </div>
+                <div class="project_summary">
+                    <img src="./images/invoice-app.png" alt="laptop and mobile mockup of invoice project made using React.js">
+                    <div class="summary_wrapper">
+                        <div class="text_wrapper">
+                            <h3>Invoice Web App</h3>
+                            <p>
+                                CRUD, React.js, TailwindCSS, Firebase, Reusable Components, Responsive, Theme, Git PRs, State Management.
+                            </p>
+                        </div>
+                        <div class="more_info_tablet">
+                            <p>
+                                This is a fully functional CRUD web application that was made using React.js and Firebase. I began the project with intention of using MongoDB, Node and Express. Using Express, I was able to create Schema model and endpoint; and connected the server to MongoDB. However, I faced challenge in deploying the API for production and hence switched to using Firebase instead.
+                            </p>
+                        </div>
+                        <div class="more_info_desktop">
+                            <p>
+                                This is a fully functional CRUD web application that was made using React.js and Firebase. I began the project with intention of using MongoDB, Node and Express. Using Express, I was able to create Schema model and endpoint; and connected the server to MongoDB. However, I faced challenge in deploying the API for production and hence switched to using Firebase instead.
+                            </p>
+                        </div>
+                        <div class="button_wrapper">
+                            <a href="https://am1553.github.io/invoice-app/" target="_blank">
+                                <button class="live">Live</button>
+                            </a>
+                            <a href="https://github.com/am1553/invoice-app" target="_blank">
+                                <button class="Code">Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
             <article class="project">
                 <button class="more_info_btn">
                     <span class="josefin">i</span>
