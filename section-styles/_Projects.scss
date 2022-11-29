@@ -1,6 +1,7 @@
 .projects {
     max-width: 1700px;
     margin: 0 auto;
+    text-align: left;
     .heading_container {
         background-color: $desaturated-cyan;
         padding: 5rem 2rem;
@@ -11,7 +12,6 @@
         h4 {
             color: #fff;
             font-weight: 400;
-            text-align: center;
             a {
                 color: #fff;
                 text-decoration: underline;
@@ -37,13 +37,11 @@
             width: 100%;
         }
         h3 {
-            text-align: center;
             margin: 2rem 0;
             color: $desaturated-cyan;
         }
         p {
             font-weight: 600;
-            text-align: center;
         }
 
         .text_wrapper {
@@ -208,7 +206,6 @@
             .project_summary {
                 .summary_wrapper {
                     h3, p {
-                        text-align: center;
                     }
                 }
             }

@@ -350,7 +350,7 @@ header .overlay {
 }
 
 .about {
-  text-align: center;
+  text-align: left;
   padding: 10rem 0;
   max-width: 1700px;
   margin: 0 auto;
@@ -431,6 +431,7 @@ header .overlay {
 .projects {
   max-width: 1700px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .projects .heading_container {
@@ -446,7 +447,6 @@ header .overlay {
 .projects .heading_container h4 {
   color: #fff;
   font-weight: 400;
-  text-align: center;
 }
 
 .projects .heading_container h4 a {
@@ -477,14 +477,12 @@ header .overlay {
 }
 
 .projects article h3 {
-  text-align: center;
   margin: 2rem 0;
   color: #2EA690;
 }
 
 .projects article p {
   font-weight: 600;
-  text-align: center;
 }
 
 .projects article .text_wrapper {
@@ -667,9 +665,6 @@ header .overlay {
 }
 
 @media screen and (min-width: 1440px) {
-  .projects .projects_container .project_summary .summary_wrapper h3, .projects .projects_container .project_summary .summary_wrapper p {
-    text-align: center;
-  }
   .projects .projects_container .button_wrapper {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
